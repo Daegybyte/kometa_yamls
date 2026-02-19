@@ -1,3 +1,7 @@
+### South Park, The Simpsons, Bob's Burgers, King of the Hill
+### Cheers, Futurama, The Sopranos, Star Trek TNG, Frasier
+### Frasier, Blue Bloods, Law & Order SVU, Archer, Boston Legal
+
 collections:
   South Park - Top 50 Episodes:
     sort_title: "!#0 South Park - Top Rated"
@@ -165,5 +169,5 @@ collections:
         limit: 25
         all:
           title.is: "Boston Legal"
-      collection_order: release.asc
+      collection_order: release.asc 
 
