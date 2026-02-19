@@ -94,15 +94,15 @@ collections:
       all:
         title.is: "Star Trek: The Next Generation"
     collection_order: release.asc
-    
-  Frasier - Top 20 Episodes:
+
+  Frasier - Top 50 Episodes:
       sort_title: "!#0 Frasier - Top Rated"
       builder_level: episode
       sync_mode: sync
       plex_search:
         type: episode
         sort_by: audience_rating.desc
-        limit: 20
+        limit: 50
         all:
           title.is: "Frasier"
       collection_order: release.asc
