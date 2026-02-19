@@ -1,0 +1,108 @@
+collections:
+  South Park - Top 50 Episodes:
+    sort_title: "!#0 South Park - Top Rated"
+    builder_level: episode
+    sync_mode: sync
+    plex_search:
+      type: episode
+      sort_by: audience_rating.desc
+      limit: 50
+      all:
+        title.is: "South Park"
+    collection_order: release.asc
+
+  The Simpsons - Top 50 Episodes:
+    sort_title: "!#0 The Simpsons - Top Rated"
+    builder_level: episode
+    sync_mode: sync
+    plex_search:
+      type: episode
+      sort_by: audience_rating.desc
+      limit: 50
+      all:
+        title.is: "The Simpsons"
+    collection_order: release.asc
+
+  Bob's Burgers - Top 50 Episodes:
+    sort_title: "!#0 Bob's Burgers - Top Rated"
+    builder_level: episode
+    sync_mode: sync
+    plex_search:
+      type: episode
+      sort_by: audience_rating.desc
+      limit: 50
+      all:
+        title.is: "Bob's Burgers"
+    collection_order: release.asc
+
+  King of the Hill - Top 50 Episodes:
+    sort_title: "!#0 King of the Hill - Top Rated"
+    builder_level: episode
+    sync_mode: sync
+    plex_search:
+      type: episode
+      sort_by: audience_rating.desc
+      limit: 50
+      all:
+        title.is: "King of the Hill"
+    collection_order: release.asc
+
+  Cheers - Top 50 Episodes:
+    sort_title: "!#0 Cheers - Top Rated"
+    builder_level: episode
+    sync_mode: sync
+    plex_search:
+      type: episode
+      sort_by: audience_rating.desc
+      limit: 50
+      all:
+        title.is: "Cheers"
+    collection_order: release.asc
+
+  Futurama - Top 20 Episodes:
+    sort_title: "!#0 Futurama - Top Rated"
+    builder_level: episode
+    sync_mode: sync
+    plex_search:
+      type: episode
+      sort_by: audience_rating.desc
+      limit: 20
+      all:
+        title.is: "Futurama"
+    collection_order: release.asc
+
+  The Sopranos - Top 20 Episodes:
+    sort_title: "!#0 The Sopranos - Top Rated"
+    builder_level: episode
+    sync_mode: sync
+    plex_search:
+      type: episode
+      sort_by: audience_rating.desc
+      limit: 20
+      all:
+        title.is: "The Sopranos"
+    collection_order: release.asc
+
+  Star Trek TNG - Top 20 Episodes:
+    sort_title: "!#0 Star Trek: The Next Generation - Top Rated"
+    builder_level: episode
+    sync_mode: sync
+    plex_search:
+      type: episode
+      sort_by: audience_rating.desc
+      limit: 20
+      all:
+        title.is: "Star Trek: The Next Generation"
+    collection_order: release.asc
+    
+  Frasier - Top 20 Episodes:
+      sort_title: "!#0 Frasier - Top Rated"
+      builder_level: episode
+      sync_mode: sync
+      plex_search:
+        type: episode
+        sort_by: audience_rating.desc
+        limit: 20
+        all:
+          title.is: "Frasier"
+      collection_order: release.asc
