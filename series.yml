@@ -1,6 +1,7 @@
 ### South Park, The Simpsons, Bob's Burgers, King of the Hill
 ### Cheers, Futurama, The Sopranos, Star Trek TNG, Frasier
 ### Frasier, Blue Bloods, Law & Order SVU, Archer, Boston Legal
+### Curb Your Enthusiasm
 
 collections:
   South Park - Top 50 Episodes:
@@ -171,3 +172,14 @@ collections:
           title.is: "Boston Legal"
       collection_order: release.asc 
 
+  Curb Your Enthusiasm - Top 10 Episodes:
+      sort_title: "!#0 Curb Your Enthusiasm - Top Rated"
+      builder_level: episode
+      sync_mode: sync
+      plex_search:
+        type: episode
+        sort_by: audience_rating.desc
+        limit: 10
+        all:
+          title.is: "Curb Your Enthusiasm"
+      collection_order: release.asc
