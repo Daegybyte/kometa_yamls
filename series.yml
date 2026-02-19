@@ -183,3 +183,39 @@ collections:
         all:
           title.is: "Curb Your Enthusiasm"
       collection_order: release.asc
+
+  Parks and Recreation - Top 20 Episodes:
+      sort_title: "!#0 Parks and Recreation - Top Rated"
+      builder_level: episode
+      sync_mode: sync
+      plex_search:
+        type: episode
+        sort_by: audience_rating.desc
+        limit: 20
+        all:
+          title.is: "Parks and Recreation"
+      collection_order: release.asc
+
+  Rick and Morty - Top 10 Episodes:
+      sort_title: "!#0 Rick and Morty - Top Rated"
+      builder_level: episode
+      sync_mode: sync
+      plex_search:
+        type: episode
+        sort_by: audience_rating.desc
+        limit: 10
+        all:
+          title.is: "Rick and Morty"
+      collection_order: release.asc
+
+  Seinfeld - Top 20 Episodes:
+      sort_title: "!#0 Seinfeld - Top Rated"
+      builder_level: episode
+      sync_mode: sync
+      plex_search:
+        type: episode
+        sort_by: audience_rating.desc
+        limit: 20
+        all:
+          title.is: "Seinfeld"
+      collection_order: release.asc
