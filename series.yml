@@ -2,6 +2,7 @@
 ### Cheers, Futurama, The Sopranos, Star Trek TNG, Frasier
 ### Frasier, Blue Bloods, Law & Order SVU, Archer, Boston Legal
 ### Curb Your Enthusiasm, Parks & Rec, Rick & Morty, Seinfeld
+### Arrested Development
 
 collections:
   South Park - Top 50 Episodes:
@@ -218,4 +219,16 @@ collections:
         limit: 20
         all:
           title.is: "Seinfeld"
+      collection_order: release.asc
+
+  Arrested Development - Top 10 Episodes:
+      sort_title: "!#0 Arrested Development - Top Rated"
+      builder_level: episode
+      sync_mode: sync
+      plex_search:
+        type: episode
+        sort_by: audience_rating.desc
+        limit: 10
+        all:
+          title.is: "Arrested Development"
       collection_order: release.asc
