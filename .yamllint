@@ -1,10 +1,13 @@
 extends: default
+
 rules:
+  # Keep
+  trailing-spaces: enable
+
+  # Disable formatting noise
+  indentation: disable
+  brackets: disable
+  comments-indentation: disable
   line-length: disable
   document-start: disable
   truthy: disable
-  comments-indentation: disable
-  trailing-spaces: enable
-  indentation:
-    spaces: 2
-    indent-sequences: consistent
