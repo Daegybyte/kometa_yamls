@@ -124,7 +124,7 @@ collections:
         all:
           title.is: "Blue Bloods"
       collection_order: release.asc
-  
+
   Law & Order SVU - Top 50 Episodes:
       sort_title: "!#0 Law & Order SVU - Top Rated"
       builder_level: episode
@@ -171,7 +171,7 @@ collections:
         limit: 25
         all:
           title.is: "Boston Legal"
-      collection_order: release.asc 
+      collection_order: release.asc
 
   Curb Your Enthusiasm - Top 10 Episodes:
       sort_title: "!#0 Curb Your Enthusiasm - Top Rated"

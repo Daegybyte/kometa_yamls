@@ -9,7 +9,7 @@ collections:
         duration.lte: 100
         rating.gte: 7.0
     summary: "Movies approximately 90 minutes long"
-    sort_title: "!!0 90 Minutes"      
+    sort_title: "!!0 90 Minutes"
     url_poster: https://img.freepik.com/premium-vector/number-90-logo-monogram-number-90-logo-line-style-usable-anniversary-business-logos_602671-579.jpg?w=360
 
   Weekly Random Movies:
@@ -20,7 +20,7 @@ collections:
         title.not: "`"
       sort_by: random
       limit: 10
-    sort_title: "!!0 Weekly Random" 
+    sort_title: "!!0 Weekly Random"
 
 
 #####################
