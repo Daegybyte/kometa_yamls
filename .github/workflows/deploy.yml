@@ -10,9 +10,9 @@ concurrency:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: plex
     steps:
-      - name: Sync repo to latest origin (deterministic)
+      - name: Sync repo to latest origin
         run: |
           set -euo pipefail
           cd /home/plex/kometa_yamls
