@@ -2,7 +2,7 @@ name: CD - Sync Kometa YAMLs to Plex server
 
 on:
   push:
-    branches: [ "main", "master" ]
+    branches: ["main", "master"]
 
 concurrency:
   group: kometa-deploy
