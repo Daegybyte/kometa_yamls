@@ -1,4 +1,4 @@
-name: CD - Sync YAMLs to Plex Remote server
+name: CD - Sync configs to plex-remote
 
 on:
   push:
@@ -12,10 +12,10 @@ jobs:
   deploy:
     runs-on: [self-hosted, plex-remote, prod]
     steps:
-      - name: Sync repo to latest origin
+      - name: Sync repo
         run: |
           set -euo pipefail
-          cd /home/plex/kometa_yamls
+          cd /home/plex-remote/kometa_yamls
           DEFAULT_BRANCH="$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')"
           git fetch --prune origin
           git checkout "$DEFAULT_BRANCH"
