@@ -1,0 +1,22 @@
+name: CD - Sync YAMLs to Plex Remote server
+
+on:
+  push:
+    branches: ["main", "master"]
+
+concurrency:
+  group: deploy-plex-remote
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: [self-hosted, plex-remote, prod]
+    steps:
+      - name: Sync repo to latest origin
+        run: |
+          set -euo pipefail
+          cd /home/plex/kometa_yamls
+          DEFAULT_BRANCH="$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')"
+          git fetch --prune origin
+          git checkout "$DEFAULT_BRANCH"
+          git reset --hard "origin/$DEFAULT_BRANCH"
