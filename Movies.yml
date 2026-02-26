@@ -32,7 +32,7 @@ templates:
     sort_title: "!058_<<collection_name>>"
     summary: "A weekly collection of 10 random movies. Changes every Monday."
     sync_mode: sync
-    schedule: weekly(Monday)
+    schedule: weekly(monday)
 
   actor_dynamic:
     default:
