@@ -10,7 +10,7 @@ concurrency:
 
 jobs:
   deploy:
-    runs-on: [self-hosted, plex]
+    runs-on: self-hosted
     steps:
       - name: Sync repo to latest origin (deterministic)
         run: |

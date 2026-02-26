@@ -10,7 +10,7 @@ concurrency:
 
 jobs:
   deploy:
-    runs-on: [self-hosted, plex-remote]
+    runs-on: plex-remote
     steps:
       - name: Sync repo
         run: |
