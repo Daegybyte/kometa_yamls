@@ -15,8 +15,6 @@ jobs:
       - name: Sync repo
         run: |
           set -euo pipefail
-          echo "HOSTNAME=$(hostname)"
-          echo "USER=$(whoami)"
           cd /home/plex/kometa_yamls
           DEFAULT_BRANCH="$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')"
           git fetch --prune origin
