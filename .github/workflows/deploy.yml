@@ -10,7 +10,7 @@ concurrency:
 
 jobs:
   deploy:
-    runs-on: plex
+    runs-on: [self-hosted, plex]
     steps:
       - name: Sync repo to latest origin
         run: |
