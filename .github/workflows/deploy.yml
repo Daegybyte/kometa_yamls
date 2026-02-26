@@ -5,7 +5,7 @@ on:
     branches: ["main", "master"]
 
 concurrency:
-  group: kometa-deploy
+  group: deploy-plex
   cancel-in-progress: true
 
 jobs:
