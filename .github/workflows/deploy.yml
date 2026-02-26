@@ -12,7 +12,7 @@ jobs:
   deploy:
     runs-on: [self-hosted, plex]
     steps:
-      - name: Sync repo to latest origin (deterministic)
+      - name: Sync repo
         run: |
           set -euo pipefail
           echo "HOSTNAME=$(hostname)"
