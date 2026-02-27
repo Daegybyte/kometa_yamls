@@ -102,133 +102,133 @@ collections:
     collection_order: release.asc
 
   Frasier - Top 50 Episodes:
-      sort_title: "!#0 Frasier - Top Rated"
-      builder_level: episode
-      sync_mode: sync
-      plex_search:
-        type: episode
-        sort_by: audience_rating.desc
-        limit: 50
-        all:
-          title.is: "Frasier"
-      collection_order: release.asc
+    sort_title: "!#0 Frasier - Top Rated"
+    builder_level: episode
+    sync_mode: sync
+    plex_search:
+      type: episode
+      sort_by: audience_rating.desc
+      limit: 50
+      all:
+        title.is: "Frasier"
+    collection_order: release.asc
 
   Blue Bloods - Top 50 Episodes:
-      sort_title: "!#0 Blue Bloods - Top Rated"
-      builder_level: episode
-      sync_mode: sync
-      plex_search:
-        type: episode
-        sort_by: audience_rating.desc
-        limit: 50
-        all:
-          title.is: "Blue Bloods"
-      collection_order: release.asc
+    sort_title: "!#0 Blue Bloods - Top Rated"
+    builder_level: episode
+    sync_mode: sync
+    plex_search:
+      type: episode
+      sort_by: audience_rating.desc
+      limit: 50
+      all:
+        title.is: "Blue Bloods"
+    collection_order: release.asc
 
   Law & Order SVU - Top 50 Episodes:
-      sort_title: "!#0 Law & Order SVU - Top Rated"
-      builder_level: episode
-      sync_mode: sync
-      plex_search:
-        type: episode
-        sort_by: audience_rating.desc
-        limit: 50
-        all:
-          title.is: "Law & Order: Special Victims Unit"
-      collection_order: release.asc
+    sort_title: "!#0 Law & Order SVU - Top Rated"
+    builder_level: episode
+    sync_mode: sync
+    plex_search:
+      type: episode
+      sort_by: audience_rating.desc
+      limit: 50
+      all:
+        title.is: "Law & Order: Special Victims Unit"
+    collection_order: release.asc
 
   Desperate Housewives - Top 50 Episodes:
-      sort_title: "!#0 Desperate Housewives - Top Rated"
-      builder_level: episode
-      sync_mode: sync
-      plex_search:
-        type: episode
-        sort_by: audience_rating.desc
-        limit: 50
-        all:
-          title.is: "Desperate Housewives"
-      collection_order: release.asc
+    sort_title: "!#0 Desperate Housewives - Top Rated"
+    builder_level: episode
+    sync_mode: sync
+    plex_search:
+      type: episode
+      sort_by: audience_rating.desc
+      limit: 50
+      all:
+        title.is: "Desperate Housewives"
+    collection_order: release.asc
 
   Archer - Top 25 Episodes:
-      sort_title: "!#0 Archer - Top Rated"
-      builder_level: episode
-      sync_mode: sync
-      plex_search:
-        type: episode
-        sort_by: audience_rating.desc
-        limit: 25
-        all:
-          title.is: "Archer (2009)"
-      collection_order: release.asc
+    sort_title: "!#0 Archer - Top Rated"
+    builder_level: episode
+    sync_mode: sync
+    plex_search:
+      type: episode
+      sort_by: audience_rating.desc
+      limit: 25
+      all:
+        title.is: "Archer (2009)"
+    collection_order: release.asc
 
   Boston Legal - Top 25 Episodes:
-      sort_title: "!#0 Boston Legal - Top Rated"
-      builder_level: episode
-      sync_mode: sync
-      plex_search:
-        type: episode
-        sort_by: audience_rating.desc
-        limit: 25
-        all:
-          title.is: "Boston Legal"
-      collection_order: release.asc
+    sort_title: "!#0 Boston Legal - Top Rated"
+    builder_level: episode
+    sync_mode: sync
+    plex_search:
+      type: episode
+      sort_by: audience_rating.desc
+      limit: 25
+      all:
+        title.is: "Boston Legal"
+    collection_order: release.asc
 
   Curb Your Enthusiasm - Top 10 Episodes:
-      sort_title: "!#0 Curb Your Enthusiasm - Top Rated"
-      builder_level: episode
-      sync_mode: sync
-      plex_search:
-        type: episode
-        sort_by: audience_rating.desc
-        limit: 10
-        all:
-          title.is: "Curb Your Enthusiasm"
-      collection_order: release.asc
+    sort_title: "!#0 Curb Your Enthusiasm - Top Rated"
+    builder_level: episode
+    sync_mode: sync
+    plex_search:
+      type: episode
+      sort_by: audience_rating.desc
+      limit: 10
+      all:
+        title.is: "Curb Your Enthusiasm"
+    collection_order: release.asc
 
   Parks and Recreation - Top 20 Episodes:
-      sort_title: "!#0 Parks and Recreation - Top Rated"
-      builder_level: episode
-      sync_mode: sync
-      plex_search:
-        type: episode
-        sort_by: audience_rating.desc
-        limit: 20
-        all:
-          title.is: "Parks and Recreation"
-      collection_order: release.asc
+    sort_title: "!#0 Parks and Recreation - Top Rated"
+    builder_level: episode
+    sync_mode: sync
+    plex_search:
+      type: episode
+      sort_by: audience_rating.desc
+      limit: 20
+      all:
+        title.is: "Parks and Recreation"
+    collection_order: release.asc
 
   Rick and Morty - Top 10 Episodes:
-      sort_title: "!#0 Rick and Morty - Top Rated"
-      builder_level: episode
-      sync_mode: sync
-      plex_search:
-        type: episode
-        sort_by: audience_rating.desc
-        limit: 10
-        all:
-          title.is: "Rick and Morty"
-      collection_order: release.asc
+    sort_title: "!#0 Rick and Morty - Top Rated"
+    builder_level: episode
+    sync_mode: sync
+    plex_search:
+      type: episode
+      sort_by: audience_rating.desc
+      limit: 10
+      all:
+        title.is: "Rick and Morty"
+    collection_order: release.asc
 
   Seinfeld - Top 20 Episodes:
-      sort_title: "!#0 Seinfeld - Top Rated"
-      builder_level: episode
-      sync_mode: sync
-      plex_search:
-        type: episode
-        sort_by: audience_rating.desc
-        limit: 20
-        all:
-          title.is: "Seinfeld"
-      collection_order: release.asc
+    sort_title: "!#0 Seinfeld - Top Rated"
+    builder_level: episode
+    sync_mode: sync
+    plex_search:
+      type: episode
+      sort_by: audience_rating.desc
+      limit: 20
+      all:
+        title.is: "Seinfeld"
+    collection_order: release.asc
 
   Arrested Development - Top 10 Episodes:
-      sort_title: "!#0 Arrested Development - Top Rated"
-      builder_level: episode
-      sync_mode: sync
-      plex_search:
-        type: episode
-        sort_by: audience_rating.desc
-        limit: 10
-        all:
-          title.is: "Arrested Development"
-      collection_order: release.asc
+    sort_title: "!#0 Arrested Development - Top Rated"
+    builder_level: episode
+    sync_mode: sync
+    plex_search:
+      type: episode
+      sort_by: audience_rating.desc
+      limit: 10
+      all:
+        title.is: "Arrested Development"
+    collection_order: release.asc
