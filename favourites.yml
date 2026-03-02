@@ -1,0 +1,55 @@
+collections:
+  Favourites:
+    sort_title: "!0 Favourites"
+    sync_mode: sync
+    collection_mode: hide_items
+    collection_order: alpha
+    visible_home: true
+    visible_shared: true
+    visible_library: true
+    tmdb_movie:
+      - 530915 # 1917 (2019)
+      - 348 # Alien (1979)
+      - 115 # The Big Lebowski (1998)
+      - 22970 # The Cabin in the Woods (2012)
+      - 11977 # Caddyshack (1980)
+      - 155 # The Dark Knight (2008)
+      - 582 # The Lives of Others / Das Leben der Anderen (2006)
+      - 293660 # Deadpool (2016)
+      - 402897 # The Death of Stalin (2017)
+      - 13813 # Defiance (2008)
+      - 7735 # Die Welle / The Wave (2008)
+      - 935 # Dr. Strangelove (1964)
+      - 438631 # Dune: Part One (2021)
+      - 493529 # Dungeons & Dragons: Honor Among Thieves (2023)
+      - 765 # Evil Dead II (1987)
+      - 600 # Full Metal Jacket (1987)
+      - 98 # Gladiator (2000)
+      - 10191 # How to Train Your Dragon (2010)
+      - 371645 # Hunt for the Wilderpeople (2016)
+      - 157336 # Interstellar (2014)
+      - 14756 # Ip Man (2008)
+      - 10386 # The Iron Giant (1999)
+      - 245891 # John Wick (2014)
+      - 329 # Jurassic Park (1993)
+      - 773 # Little Miss Sunshine (2006)
+      - 263115 # Logan (2017)
+      - 121 # The Lord of the Rings: The Two Towers (2002)
+      - 286217 # The Martian (2015)
+      - 10874 # Muppet Treasure Island (1996)
+      - 564 # The Mummy (1999)
+      - 346648 # Paddington 2 (2017)
+      - 68726 # Pacific Rim (2013)
+      - 766507 # Prey (2022)
+      - 128 # Princess Mononoke (1997)
+      - 670428 # Psycho Goreman (2020)
+      - 37724 # Skyfall (2012)
+      - 502033 # Sound of Metal (2019/2020)
+      - 957 # Spaceballs (1987)
+      - 314365 # Spotlight (2015)
+      - 594718 # Sputnik (2020)
+      - 563 # Starship Troopers (1997)
+      - 8831 # Timecop (1994)
+      - 9362 # Tremors (1990)
+      - 828898 # The Venture Bros.: Radiant Is the Blood of the Baboon Heart (2023)
+      - 269149 # Zootopia (2016)
