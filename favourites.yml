@@ -2,7 +2,7 @@ collections:
   Favourites:
     sort_title: "!0 Favourites"
     sync_mode: sync
-    collection_mode: hide_items
+    collection_mode: hide
     collection_order: alpha
     visible_home: true
     visible_shared: true
