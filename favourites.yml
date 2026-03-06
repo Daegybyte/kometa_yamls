@@ -1,6 +1,6 @@
 collections:
   Favourites:
-    sort_title: "!!! Favourites"
+    sort_title: "!!!! Favourites"
     sync_mode: sync
     collection_mode: hide
     collection_order: alpha
