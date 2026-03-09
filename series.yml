@@ -6,7 +6,7 @@
 
 collections:
   South Park - Top 50 Episodes:
-    sort_title: "!#0 South Park - Top Rated"
+    sort_title: "zzz South Park - Top Rated"
     builder_level: episode
     sync_mode: sync
     plex_search:
@@ -18,7 +18,7 @@ collections:
     collection_order: release.asc
 
   The Simpsons - Top 50 Episodes:
-    sort_title: "!#0 The Simpsons - Top Rated"
+    sort_title: "zzz The Simpsons - Top Rated"
     builder_level: episode
     sync_mode: sync
     plex_search:
@@ -30,7 +30,7 @@ collections:
     collection_order: release.asc
 
   Bob's Burgers - Top 50 Episodes:
-    sort_title: "!#0 Bob's Burgers - Top Rated"
+    sort_title: "zzz Bob's Burgers - Top Rated"
     builder_level: episode
     sync_mode: sync
     plex_search:
@@ -42,7 +42,7 @@ collections:
     collection_order: release.asc
 
   King of the Hill - Top 50 Episodes:
-    sort_title: "!#0 King of the Hill - Top Rated"
+    sort_title: "zzz King of the Hill - Top Rated"
     builder_level: episode
     sync_mode: sync
     plex_search:
@@ -54,7 +54,7 @@ collections:
     collection_order: release.asc
 
   Cheers - Top 50 Episodes:
-    sort_title: "!#0 Cheers - Top Rated"
+    sort_title: "zzz Cheers - Top Rated"
     builder_level: episode
     sync_mode: sync
     plex_search:
@@ -66,7 +66,7 @@ collections:
     collection_order: release.asc
 
   Futurama - Top 20 Episodes:
-    sort_title: "!#0 Futurama - Top Rated"
+    sort_title: "zzz Futurama - Top Rated"
     builder_level: episode
     sync_mode: sync
     plex_search:
@@ -78,7 +78,7 @@ collections:
     collection_order: release.asc
 
   The Sopranos - Top 20 Episodes:
-    sort_title: "!#0 The Sopranos - Top Rated"
+    sort_title: "zzz The Sopranos - Top Rated"
     builder_level: episode
     sync_mode: sync
     plex_search:
@@ -90,7 +90,7 @@ collections:
     collection_order: release.asc
 
   Star Trek TNG - Top 20 Episodes:
-    sort_title: "!#0 Star Trek: The Next Generation - Top Rated"
+    sort_title: "zzz Star Trek: The Next Generation - Top Rated"
     builder_level: episode
     sync_mode: sync
     plex_search:
@@ -102,7 +102,7 @@ collections:
     collection_order: release.asc
 
   Frasier - Top 50 Episodes:
-    sort_title: "!#0 Frasier - Top Rated"
+    sort_title: "zzz Frasier - Top Rated"
     builder_level: episode
     sync_mode: sync
     plex_search:
@@ -114,7 +114,7 @@ collections:
     collection_order: release.asc
 
   Blue Bloods - Top 50 Episodes:
-    sort_title: "!#0 Blue Bloods - Top Rated"
+    sort_title: "zzz Blue Bloods - Top Rated"
     builder_level: episode
     sync_mode: sync
     plex_search:
@@ -126,7 +126,7 @@ collections:
     collection_order: release.asc
 
   Law & Order SVU - Top 50 Episodes:
-    sort_title: "!#0 Law & Order SVU - Top Rated"
+    sort_title: "zzz Law & Order SVU - Top Rated"
     builder_level: episode
     sync_mode: sync
     plex_search:
@@ -138,7 +138,7 @@ collections:
     collection_order: release.asc
 
   Desperate Housewives - Top 50 Episodes:
-    sort_title: "!#0 Desperate Housewives - Top Rated"
+    sort_title: "zzz Desperate Housewives - Top Rated"
     builder_level: episode
     sync_mode: sync
     plex_search:
@@ -150,7 +150,7 @@ collections:
     collection_order: release.asc
 
   Archer - Top 25 Episodes:
-    sort_title: "!#0 Archer - Top Rated"
+    sort_title: "zzz Archer - Top Rated"
     builder_level: episode
     sync_mode: sync
     plex_search:
@@ -162,7 +162,7 @@ collections:
     collection_order: release.asc
 
   Boston Legal - Top 25 Episodes:
-    sort_title: "!#0 Boston Legal - Top Rated"
+    sort_title: "zzz Boston Legal - Top Rated"
     builder_level: episode
     sync_mode: sync
     plex_search:
@@ -174,7 +174,7 @@ collections:
     collection_order: release.asc
 
   Curb Your Enthusiasm - Top 10 Episodes:
-    sort_title: "!#0 Curb Your Enthusiasm - Top Rated"
+    sort_title: "zzz Curb Your Enthusiasm - Top Rated"
     builder_level: episode
     sync_mode: sync
     plex_search:
@@ -186,7 +186,7 @@ collections:
     collection_order: release.asc
 
   Parks and Recreation - Top 20 Episodes:
-    sort_title: "!#0 Parks and Recreation - Top Rated"
+    sort_title: "zzz Parks and Recreation - Top Rated"
     builder_level: episode
     sync_mode: sync
     plex_search:
@@ -198,7 +198,7 @@ collections:
     collection_order: release.asc
 
   Rick and Morty - Top 10 Episodes:
-    sort_title: "!#0 Rick and Morty - Top Rated"
+    sort_title: "zzz Rick and Morty - Top Rated"
     builder_level: episode
     sync_mode: sync
     plex_search:
@@ -210,7 +210,7 @@ collections:
     collection_order: release.asc
 
   Seinfeld - Top 20 Episodes:
-    sort_title: "!#0 Seinfeld - Top Rated"
+    sort_title: "zzz Seinfeld - Top Rated"
     builder_level: episode
     sync_mode: sync
     plex_search:
@@ -222,7 +222,7 @@ collections:
     collection_order: release.asc
 
   Arrested Development - Top 10 Episodes:
-    sort_title: "!#0 Arrested Development - Top Rated"
+    sort_title: "zzz Arrested Development - Top Rated"
     builder_level: episode
     sync_mode: sync
     plex_search:
