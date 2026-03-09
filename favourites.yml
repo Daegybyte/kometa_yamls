@@ -1,6 +1,6 @@
 collections:
   Diego's Favourites:
-    sort_title: "!0 Favourites"
+    sort_title: "!!0 Favourites"
     sync_mode: sync
     collection_mode: hide
     collection_order: alpha
