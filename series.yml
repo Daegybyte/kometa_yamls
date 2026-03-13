@@ -2,7 +2,7 @@
 ### Cheers, Futurama, The Sopranos, Star Trek TNG, Frasier
 ### Frasier, Blue Bloods, Law & Order SVU, Archer, Boston Legal
 ### Curb Your Enthusiasm, Parks & Rec, Rick & Morty, Seinfeld
-### Arrested Development
+### Arrested Development, Community
 
 collections:
   South Park - Top 50 Episodes:
@@ -117,6 +117,12 @@ collections:
     template:
       name: top_episodes
       show_title: Arrested Development
+      limit: 10
+
+  Community - Top 10 Episodes:
+    template:
+      name: top_episodes
+      show_title: Community
       limit: 10
 
 templates:
