@@ -4,6 +4,26 @@ rules:
   # Keep
   trailing-spaces: enable
 
+  # Graduated strictness
+  key-duplicates: enable # Catches silent bugs — duplicate keys are hard to spot visually
+  empty-values: enable # Flags bare keys with no value, usually a typo
+  octal-values: # Prevents 0o755-style values being misread as octal
+    forbid-implicit-octal: true
+    forbid-explicit-octal: false
+
+  new-line-at-end-of-file: enable # Avoids diff noise in git
+  new-lines:
+    type: unix # Enforces LF, good if editing across machines
+
+  empty-lines:
+    max: 2 # You use blank lines for section separation, so stay loose
+    max-start: 0
+    max-end: 1
+
+  comments:
+    min-spaces-from-content: 2 # Enforces `key: value  # comment` spacing
+    require-starting-space: true # Enforces `# comment` not `#comment`
+
   # Disable formatting noise
   indentation: disable
   brackets: disable
