@@ -64,9 +64,9 @@ collections:
     template:
       name: personal_favourites
     tmdb_movie:
+      - 9932 # Analyze That (2002)
+      - 9535 # Analyze This (1999)
+      - 92591 # Bernie (2012)
+      - 74534 # The Best Exotic Marigold Hotel (2011)
       - 8491 # Weekend at Bernie's (1989)
       - 10276 # What About Bob? (1991)
-      - 9535 # Analyze This (1999)
-      - 9932 # Analyze That (2002)
-      - 74534 # The Best Exotic Marigold Hotel (2011)
-      - 92591 # Bernie (2012)
