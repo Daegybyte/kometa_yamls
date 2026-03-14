@@ -1,12 +1,10 @@
 extends: default
 
 rules:
-  # Keep
   trailing-spaces: enable
 
-  # Graduated strictness
-  key-duplicates: enable # Catches silent bugs — duplicate keys are hard to spot visually
-  empty-values: enable # Flags bare keys with no value, usually a typo
+  key-duplicates: enable # Catches duplicate keys
+  empty-values: enable # Catches keys without values
   octal-values: # Prevents 0o755-style values being misread as octal
     forbid-implicit-octal: true
     forbid-explicit-octal: false
@@ -21,7 +19,7 @@ rules:
     max-end: 1
 
   comments:
-    min-spaces-from-content: 1 # Enforces `key: value  # comment` spacing
+    min-spaces-from-content: 1 # Brings ymllint inline with prettier for formatting
     require-starting-space: true # Enforces `# comment` not `#comment`
 
   # Disable formatting noise
