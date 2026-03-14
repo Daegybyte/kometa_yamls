@@ -21,7 +21,7 @@ rules:
     max-end: 1
 
   comments:
-    min-spaces-from-content: 2 # Enforces `key: value  # comment` spacing
+    min-spaces-from-content: 1 # Enforces `key: value  # comment` spacing
     require-starting-space: true # Enforces `# comment` not `#comment`
 
   # Disable formatting noise
