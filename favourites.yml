@@ -1,12 +1,17 @@
-collections:
-  Diego's Favourites:
-    sort_title: "!0 Favourites"
+templates:
+  personal_favourites:
+    sort_title: "!0 <<collection_name>>"
     sync_mode: sync
     collection_mode: hide
     collection_order: alpha
     visible_home: true
     visible_shared: true
     visible_library: true
+
+collections:
+  Diego's Favourites:
+    template:
+      name: personal_favourites
     tmdb_movie:
       - 530915 # 1917 (2019)
       - 348 # Alien (1979)
@@ -54,3 +59,14 @@ collections:
       - 9362 # Tremors (1990)
       - 828898 # The Venture Bros.: Radiant Is the Blood of the Baboon Heart (2023)
       - 269149 # Zootopia (2016)
+
+  Mum's Favourites:
+    template:
+      name: personal_favourites
+    tmdb_movie:
+      - 8491 # Weekend at Bernie's (1989)
+      - 10276 # What About Bob? (1991)
+      - 9535 # Analyze This (1999)
+      - 9932 # Analyze That (2002)
+      - 74534 # The Best Exotic Marigold Hotel (2011)
+      - 92591 # Bernie (2012)
