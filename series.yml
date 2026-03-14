@@ -17,11 +17,11 @@ collections:
       show_title: The Simpsons
       limit: 50
 
-  Bob's Burgers - Top 50 Episodes:
+  Bob's Burgers - Top 25 Episodes:
     template:
       name: top_episodes
       show_title: "Bob's Burgers"
-      limit: 50
+      limit: 25
 
   King of the Hill - Top 50 Episodes:
     template:
@@ -53,11 +53,11 @@ collections:
       show_title: "Star Trek: The Next Generation"
       limit: 20
 
-  Frasier - Top 50 Episodes:
+  Frasier - Top 25 Episodes:
     template:
       name: top_episodes
       show_title: Frasier
-      limit: 50
+      limit: 25
 
   Blue Bloods - Top 50 Episodes:
     template:
@@ -71,11 +71,11 @@ collections:
       show_title: "Law & Order: Special Victims Unit"
       limit: 50
 
-  Desperate Housewives - Top 50 Episodes:
+  Desperate Housewives - Top 25 Episodes:
     template:
       name: top_episodes
       show_title: Desperate Housewives
-      limit: 50
+      limit: 25
 
   Archer - Top 25 Episodes:
     template:
