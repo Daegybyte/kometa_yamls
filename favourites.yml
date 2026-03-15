@@ -12,6 +12,7 @@ collections:
   Diego's Favourites:
     template:
       name: personal_favourites
+    url_poster: https://raw.githubusercontent.com/Daegybyte/kometa_yamls/refs/heads/main/src/images/dp_d20_logo.png
     tmdb_movie:
       - 530915 # 1917 (2019)
       - 348 # Alien (1979)
