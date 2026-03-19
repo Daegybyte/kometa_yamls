@@ -125,6 +125,19 @@ collections:
       show_title: Community
       limit: 10
 
+  Yellowstone:
+    template:
+      name: universe_collections
+    url_poster: "https://raw.githubusercontent.com/Kometa-Team/Default-Images/refs/heads/master/franchise/Yellowstone.jpg"
+    summary: "Yellowstone and the extended Yellowstone Universe"
+    tmdb_show:
+      - 73586 # Yellowstone (2018)
+      - 89247 # 1883
+      - 371980 # 1923
+      - 202555 # Lawmen: Bass Reeves
+      - 240411 # The Madison
+      - 278622 # Marshals
+
 templates:
   top_episodes:
     sort_title: "zzz <<collection_name>>"
@@ -137,3 +150,9 @@ templates:
       limit: <<limit>>
       all:
         title.is: "<<show_title>>"
+
+  universe_collections:
+    sort_title: "Universe, <<collection_name>>"
+    builder_level: episode
+    sync_mode: sync
+    collection_order: release.asc
