@@ -132,11 +132,11 @@ collections:
     summary: "Yellowstone and the extended Yellowstone Universe"
     tmdb_show:
       - 73586 # Yellowstone (2018)
-      - 89247 # 1883
-      - 371980 # 1923
-      - 202555 # Lawmen: Bass Reeves
-      - 240411 # The Madison
-      - 278622 # Marshals
+      - 118357 # 1883
+      - 157744 # 1923
+      - 157732 # Lawmen: Bass Reeves
+      - 225891 # The Madison
+      - 290856 # Marshals
 
 templates:
   top_episodes:
