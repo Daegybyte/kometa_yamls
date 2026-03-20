@@ -153,6 +153,6 @@ templates:
 
   universe_collections:
     sort_title: "Universe, <<collection_name>>"
-    builder_level: episode
+    # builder_level: tmdb_show
     sync_mode: sync
     collection_order: release.asc
