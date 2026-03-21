@@ -1,10 +1,21 @@
+##################
+## Top Episodes ##
+##################
 ### South Park, The Simpsons, Bob's Burgers, King of the Hill
 ### Cheers, Futurama, The Sopranos, Star Trek TNG, Frasier
 ### Frasier, Blue Bloods, Law & Order SVU, Archer, Boston Legal
 ### Curb Your Enthusiasm, Parks & Rec, Rick & Morty, Seinfeld
 ### Arrested Development, Community
 
+##########################
+## Universe collections ##
+##########################
+### Yellowstone
+
 collections:
+  ##################
+  ## Top Episodes ##
+  ##################
   South Park - Top 50 Episodes:
     template:
       name: top_episodes
@@ -125,6 +136,9 @@ collections:
       show_title: Community
       limit: 10
 
+  ##########################
+  ## Universe collections ##
+  ##########################
   Yellowstone:
     template:
       name: universe_collections
@@ -138,7 +152,13 @@ collections:
       - 225891 # The Madison
       - 290856 # Marshals
 
+###############
+## Templates ##
+###############
 templates:
+  ##########################
+  ## Top Episode Template ##
+  ##########################
   top_episodes:
     sort_title: "zzz <<collection_name>>"
     builder_level: episode
@@ -151,6 +171,9 @@ templates:
       all:
         title.is: "<<show_title>>"
 
+  #########################
+  ## Universe Template ##
+  #########################
   universe_collections:
     sort_title: "Universe, <<collection_name>>"
     sync_mode: sync
