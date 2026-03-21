@@ -155,4 +155,3 @@ templates:
     sort_title: "Universe, <<collection_name>>"
     sync_mode: sync
     collection_order: release.asc
-    minimum_items: 0
