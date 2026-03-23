@@ -13,129 +13,134 @@
 ### Yellowstone
 
 collections:
-  ##################
-  ## Top Episodes ##
-  ##################
-  South Park - Top 50 Episodes:
-    template:
-      name: top_episodes
-      show_title: South Park
-      limit: 50
+  # ##################
+  # ## Top Episodes ##
+  # ##################
+  # South Park - Top 50 Episodes:
+  #   template:
+  #     name: top_episodes
+  #     show_title: South Park
+  #     limit: 50
 
-  The Simpsons - Top 50 Episodes:
-    template:
-      name: top_episodes
-      show_title: The Simpsons
-      limit: 50
+  # The Simpsons - Top 50 Episodes:
+  #   template:
+  #     name: top_episodes
+  #     show_title: The Simpsons
+  #     limit: 50
 
-  Bob's Burgers - Top 25 Episodes:
-    template:
-      name: top_episodes
-      show_title: "Bob's Burgers"
-      limit: 25
+  # Bob's Burgers - Top 25 Episodes:
+  #   template:
+  #     name: top_episodes
+  #     show_title: "Bob's Burgers"
+  #     limit: 25
 
-  King of the Hill - Top 50 Episodes:
-    template:
-      name: top_episodes
-      show_title: King of the Hill
-      limit: 50
+  # King of the Hill - Top 50 Episodes:
+  #   template:
+  #     name: top_episodes
+  #     show_title: King of the Hill
+  #     limit: 50
 
-  Cheers - Top 50 Episodes:
-    template:
-      name: top_episodes
-      show_title: Cheers
-      limit: 50
+  # Cheers - Top 50 Episodes:
+  #   template:
+  #     name: top_episodes
+  #     show_title: Cheers
+  #     limit: 50
 
-  Futurama - Top 20 Episodes:
-    template:
-      name: top_episodes
-      show_title: Futurama
-      limit: 20
+  # Futurama - Top 20 Episodes:
+  #   template:
+  #     name: top_episodes
+  #     show_title: Futurama
+  #     limit: 20
 
-  The Sopranos - Top 20 Episodes:
-    template:
-      name: top_episodes
-      show_title: The Sopranos
-      limit: 20
+  # The Sopranos - Top 20 Episodes:
+  #   template:
+  #     name: top_episodes
+  #     show_title: The Sopranos
+  #     limit: 20
 
-  Star Trek TNG - Top 20 Episodes:
-    template:
-      name: top_episodes
-      show_title: "Star Trek: The Next Generation"
-      limit: 20
+  # Star Trek TNG - Top 20 Episodes:
+  #   template:
+  #     name: top_episodes
+  #     show_title: "Star Trek: The Next Generation"
+  #     limit: 20
 
-  Frasier - Top 25 Episodes:
-    template:
-      name: top_episodes
-      show_title: Frasier
-      limit: 25
+  # Frasier - Top 25 Episodes:
+  #   template:
+  #     name: top_episodes
+  #     show_title: Frasier
+  #     limit: 25
 
-  Blue Bloods - Top 50 Episodes:
-    template:
-      name: top_episodes
-      show_title: Blue Bloods
-      limit: 50
+  # Blue Bloods - Top 50 Episodes:
+  #   template:
+  #     name: top_episodes
+  #     show_title: Blue Bloods
+  #     limit: 50
 
-  Law & Order SVU - Top 50 Episodes:
-    template:
-      name: top_episodes
-      show_title: "Law & Order: Special Victims Unit"
-      limit: 50
+  # Law & Order SVU - Top 50 Episodes:
+  #   template:
+  #     name: top_episodes
+  #     show_title: "Law & Order: Special Victims Unit"
+  #     limit: 50
 
-  Desperate Housewives - Top 25 Episodes:
-    template:
-      name: top_episodes
-      show_title: Desperate Housewives
-      limit: 25
+  # Desperate Housewives - Top 25 Episodes:
+  #   template:
+  #     name: top_episodes
+  #     show_title: Desperate Housewives
+  #     limit: 25
 
-  Archer - Top 25 Episodes:
-    template:
-      name: top_episodes
-      show_title: "Archer (2009)"
-      limit: 25
+  # Archer - Top 25 Episodes:
+  #   template:
+  #     name: top_episodes
+  #     show_title: "Archer (2009)"
+  #     limit: 25
 
-  Boston Legal - Top 25 Episodes:
-    template:
-      name: top_episodes
-      show_title: Boston Legal
-      limit: 25
+  # Boston Legal - Top 25 Episodes:
+  #   template:
+  #     name: top_episodes
+  #     show_title: Boston Legal
+  #     limit: 25
 
-  Curb Your Enthusiasm - Top 10 Episodes:
-    template:
-      name: top_episodes
-      show_title: Curb Your Enthusiasm
-      limit: 10
+  # Curb Your Enthusiasm - Top 10 Episodes:
+  #   template:
+  #     name: top_episodes
+  #     show_title: Curb Your Enthusiasm
+  #     limit: 10
 
-  Parks and Recreation - Top 20 Episodes:
-    template:
-      name: top_episodes
-      show_title: Parks and Recreation
-      limit: 20
+  # Parks and Recreation - Top 20 Episodes:
+  #   template:
+  #     name: top_episodes
+  #     show_title: Parks and Recreation
+  #     limit: 20
 
-  Rick and Morty - Top 10 Episodes:
-    template:
-      name: top_episodes
-      show_title: Rick and Morty
-      limit: 10
+  # Rick and Morty - Top 10 Episodes:
+  #   template:
+  #     name: top_episodes
+  #     show_title: Rick and Morty
+  #     limit: 10
 
-  Seinfeld - Top 20 Episodes:
-    template:
-      name: top_episodes
-      show_title: Seinfeld
-      limit: 20
+  # Seinfeld - Top 20 Episodes:
+  #   template:
+  #     name: top_episodes
+  #     show_title: Seinfeld
+  #     limit: 20
 
-  Arrested Development - Top 10 Episodes:
-    template:
-      name: top_episodes
-      show_title: Arrested Development
-      limit: 10
+  # Arrested Development - Top 10 Episodes:
+  #   template:
+  #     name: top_episodes
+  #     show_title: Arrested Development
+  #     limit: 10
+
+  # Community - Top 10 Episodes:
+  #   template:
+  #     name: top_episodes
+  #     show_title: Community
+  #     limit: 10
 
   Community - Top 10 Episodes:
+    tmdb_show: 18347
     template:
       name: top_episodes
-      show_title: Community
       limit: 10
-
   ##########################
   ## Universe collections ##
   ##########################
@@ -161,6 +166,18 @@ templates:
   ##########################
   ## Top Episode Template ##
   ##########################
+  # top_episodes:
+  #   sort_title: "zzz <<collection_name>>"
+  #   builder_level: episode
+  #   sync_mode: sync
+  #   collection_order: release.asc
+  #   plex_search:
+  #     type: episode
+  #     sort_by: audience_rating.desc
+  #     limit: <<limit>>
+  #     all:
+  #       title.is: "<<show_title>>"
+
   top_episodes:
     sort_title: "zzz <<collection_name>>"
     builder_level: episode
@@ -170,8 +187,6 @@ templates:
       type: episode
       sort_by: audience_rating.desc
       limit: <<limit>>
-      all:
-        title.is: "<<show_title>>"
 
   #########################
   ## Universe Template ##
