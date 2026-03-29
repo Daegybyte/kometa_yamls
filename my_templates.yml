@@ -32,7 +32,7 @@ templates:
     sort_title: "<<prefix>>_<<collection_name>>"
     sync_mode: sync
     collection_mode: hide
-    collection_order: alpha
+    collection_order: title.asc
     visible_home: true
     visible_shared: true
     visible_library: true
