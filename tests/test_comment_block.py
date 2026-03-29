@@ -47,3 +47,7 @@ def test_comment_block_normalises_input(capsys):
     captured = capsys.readouterr()
     lines = captured.out.strip().split("\n")
     assert lines[1] == "## hello ##"
+
+
+def test_this_will_fail():
+    assert normalise_text("hello") == "goodbye"
