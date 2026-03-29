@@ -26,7 +26,7 @@ collections:
     tmdb_keyword: 9672 # based on a true story
     template:
       name: basic alphabetical
-      prefix: zzz
+      prefix: "zzz"
     summary:
       "Films and shows inspired by real events, real people, and stories that actually happened."
 
