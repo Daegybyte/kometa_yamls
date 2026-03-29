@@ -8,7 +8,7 @@ GitHub Actions.
 This repository keeps configuration in source control and automatically distributes updates to
 multiple Linux servers in a repeatable, deterministic way.
 
-# (GitHub Actions)
+## (GitHub Actions)
 
 ## CI: YAML Linting
 
