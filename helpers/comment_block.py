@@ -22,7 +22,7 @@ def comment_block(text: str):
     print("\n".join([border, middle, border]))
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     parser = argparse.ArgumentParser(description="Generate a comment block")
     parser.add_argument("text", help="Text to wrap in a comment block")
     args = parser.parse_args()
