@@ -1,5 +1,10 @@
 name: CD - Sync configs to plex
 
+# Deploys YAML configs to the local plex server on push to main.
+# Runs on the self-hosted plex runner.
+# Fetches the latest changes and hard resets to match the remote,
+# ensuring the server is always in sync with the repository.
+
 on:
   push:
     branches: ["main", "master"]

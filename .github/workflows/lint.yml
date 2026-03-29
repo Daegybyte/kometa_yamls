@@ -1,5 +1,9 @@
 name: CI - Lint YML
 
+# Runs yamllint to validate YML syntax and formatting.
+# Scans all YML files in the repository.
+# Fails if any YML files contain syntax errors or style violations.
+
 on:
   pull_request:
     branches: ["main", "master"]

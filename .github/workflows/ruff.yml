@@ -1,5 +1,9 @@
 name: CI - Ruff
 
+# Runs Ruff, a fast Python linter written in Rust.
+# Checks for code style issues, unused imports, and common bugs.
+# Fails if any linting issues are found.
+
 on:
   push:
     branches: ["main", "master"]

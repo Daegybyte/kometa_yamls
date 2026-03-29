@@ -1,5 +1,10 @@
 name: CI - Pytest
 
+# Runs pytest with coverage reporting.
+# Tests are discovered from the tests/ directory.
+# Coverage is measured against helpers/ and must meet a minimum of 99%.
+# Fails if any tests fail or coverage drops below the threshold.
+
 on:
   push:
     branches: ["main", "master"]
