@@ -22,14 +22,6 @@ collections:
       limit: 10
     sort_title: "!!0 Weekly Random"
 
-  Based on a True Story:
-    tmdb_keyword: 9672 # based on a true story
-    template:
-      name: basic alphabetical
-      prefix: "zzz"
-    summary:
-      "Films and shows inspired by real events, real people, and stories that actually happened."
-
 #########################
 ## DYNAMIC COLLECTIONS ##
 #########################

@@ -28,7 +28,7 @@ templates:
   ##################
   ## Alphabetical ##
   ##################
-  basic alphabetical:
+  basic-alpha:
     sort_title: "<<prefix>>_<<collection_name>>"
     sync_mode: sync
     collection_mode: hide

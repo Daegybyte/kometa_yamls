@@ -1,0 +1,19 @@
+collections:
+  Based on a True Story:
+    tmdb_keyword: 9672 # based on a true story
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/refs/heads/master/based/True%20Story.jpg
+    template:
+      name: basic-alpha
+      prefix: "zzz"
+    summary:
+      "Films and shows inspired by real events, real people, and stories that actually happened."
+
+  Boxing Movies:
+    tmdb_keyword: 209476 # Boxing
+    template:
+      name: basic-alpha
+      prefix: "zzz"
+    summary: "Films and shows inspired by boxing"
+
+external_templates:
+  - file: Kometa/config/my_templates.yml
