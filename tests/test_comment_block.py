@@ -1,6 +1,6 @@
-from comment_block import normalise_text, comment_block
-
 # pylint: disable=missing-function-docstring
+
+from comment_block import normalise_text, comment_block
 
 
 ###########################
