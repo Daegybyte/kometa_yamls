@@ -1,0 +1,38 @@
+###############
+## Templates ##
+###############
+templates:
+  #########################
+  # Top Episode Template ##
+  #########################
+  top_episodes:
+    sort_title: "zzz <<collection_name>>"
+    builder_level: episode
+    sync_mode: sync
+    collection_order: release.asc
+    plex_search:
+      type: episode
+      sort_by: audience_rating.desc
+      limit: <<limit>>
+      all:
+        title.is: "<<show_title>>"
+
+  ########################
+  ## Universe Template ##
+  ########################
+  universe_collections:
+    sort_title: "Universe, <<collection_name>>"
+    sync_mode: sync
+    collection_order: release.asc
+
+  ##################
+  ## Alphabetical ##
+  ##################
+  Basic Alphabetical:
+    sort_title: "<<prefix>>_<<collection_name>>"
+    sync_mode: sync
+    collection_mode: hide
+    collection_order: alpha
+    visible_home: true
+    visible_shared: true
+    visible_library: true

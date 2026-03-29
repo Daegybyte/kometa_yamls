@@ -1,12 +1,15 @@
-templates:
-  personal_favourites:
-    sort_title: "!0 <<collection_name>>"
-    sync_mode: sync
-    collection_mode: hide
-    collection_order: alpha
-    visible_home: true
-    visible_shared: true
-    visible_library: true
+# templates:
+#   personal_favourites:
+#     sort_title: "!0 <<collection_name>>"
+#     sync_mode: sync
+#     collection_mode: hide
+#     collection_order: alpha
+#     visible_home: true
+#     visible_shared: true
+#     visible_library: true
+
+external_templates:
+  - file: my_templates.yml
 
 collections:
   Diego's Favourites:
