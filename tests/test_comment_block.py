@@ -1,7 +1,11 @@
 from comment_block import normalise_text, comment_block
 
+# pylint: disable=missing-function-docstring
 
-# normalise_text tests
+
+###########################
+## text normaliser tests ##
+###########################
 def test_normalise_text_casefold():
     assert normalise_text("HELLO") == "hello"
 
@@ -26,6 +30,9 @@ def test_normalise_text_numbers_preserved():
     assert normalise_text("hello123") == "hello123"
 
 
+#########################
+## comment block tests ##
+#########################
 def test_comment_block_border_length(capsys):
     comment_block("hello")
     captured = capsys.readouterr()
