@@ -71,7 +71,7 @@ def test_comment_block_normalises_input(capsys):
     assert lines[1] == "## hello ##"
 
 
-def test_comment_block_normalises_input(capsys):
+def test_comment_block_normalises_sarcastic_input(capsys):
     comment_block("HeLlO!")
     captured = capsys.readouterr()
     lines = captured.out.strip().split("\n")
