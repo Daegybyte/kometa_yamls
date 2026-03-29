@@ -182,4 +182,4 @@ templates:
     collection_order: release.asc
 
 external_templates:
-  - file: my_templates.yml
+  - file: Kometa/config/my_templates.yml

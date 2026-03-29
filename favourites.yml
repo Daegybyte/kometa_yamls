@@ -74,4 +74,4 @@ collections:
       - 10276 # What About Bob? (1991)
 
 external_templates:
-  - file: my_templates.yml
+  - file: Kometa/config/my_templates.yml

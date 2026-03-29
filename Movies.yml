@@ -47,4 +47,4 @@ dynamic_collections:
       limit: 15
 
 external_templates:
-  - file: my_templates.yml
+  - file: Kometa/config/my_templates.yml
