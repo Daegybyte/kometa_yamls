@@ -1,17 +1,26 @@
 #!/usr/bin/env python3
 import argparse
+import re
 
 
 ########################
 ## this is the result ##
 ########################
-def comment_block(text):
+
+
+def normalise_text(text: str) -> str:
+    text = text.casefold()
+    text = text.strip()
+    text = re.sub(r"[^a-z0-9\s]", "", text)
+    return text
+
+
+def comment_block(text: str):
+    text = normalise_text(text)
     width = len(text) + 6  # six for the four # and two " " on either side of the text
     border = "#" * width
     middle = f"## {text} ##"
-    print(border)
-    print(middle)
-    print(border)
+    print("\n".join([border, middle, border]))
 
 
 if __name__ == "__main__":
