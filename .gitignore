@@ -1,1 +1,4 @@
 .DS_Store
+.coverage
+.pytest_cache/
+.ruff_cache/
