@@ -180,3 +180,6 @@ templates:
     sort_title: "Universe, <<collection_name>>"
     sync_mode: sync
     collection_order: release.asc
+
+external_templates:
+  - file: my_templates.yml

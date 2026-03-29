@@ -8,9 +8,6 @@
 #     visible_shared: true
 #     visible_library: true
 
-external_templates:
-  - file: my_templates.yml
-
 collections:
   Diego's Favourites:
     template:
@@ -75,3 +72,6 @@ collections:
       - 74534 # The Best Exotic Marigold Hotel (2011)
       - 8491 # Weekend at Bernie's (1989)
       - 10276 # What About Bob? (1991)
+
+external_templates:
+  - file: my_templates.yml
