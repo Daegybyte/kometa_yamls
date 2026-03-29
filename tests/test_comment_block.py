@@ -76,3 +76,17 @@ def test_comment_block_normalises_sarcastic_input(capsys):
     captured = capsys.readouterr()
     lines = captured.out.strip().split("\n")
     assert lines[1] == "## hello ##"
+
+
+def test_comment_block_multi_word(capsys):
+    comment_block("hello world")
+    captured = capsys.readouterr()
+    lines = captured.out.strip().split("\n")
+    assert lines[1] == "## hello world ##"
+
+
+def test_comment_block_border_matches_text_length(capsys):
+    comment_block("hello world")
+    captured = capsys.readouterr()
+    lines = captured.out.strip().split("\n")
+    assert len(lines[0]) == len("hello world") + 6
