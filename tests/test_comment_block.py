@@ -46,6 +46,18 @@ def test_normalise_text_numbers_preserved():
     assert normalise_text("hello123") == "hello123"
 
 
+def test_normalise_text_preserves_internal_spaces():
+    assert normalise_text("hello  world") == "hello world"
+
+
+def test_normalise_text_strips_tabs():
+    assert normalise_text("\thello\t") == "hello"
+
+
+def test_normalise_text_strips_accented_chars():
+    assert normalise_text("héllo") == "hllo"
+
+
 #########################
 ## comment block tests ##
 #########################
