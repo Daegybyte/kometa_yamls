@@ -3,11 +3,7 @@ import argparse
 import re
 
 
-########################
-## this is the result ##
-########################
-
-
+# returns a lowercase string with symbols, leading, and trailing spaces removed
 def normalise_text(text: str) -> str:
     text = text.casefold()
     text = text.strip()
@@ -15,6 +11,9 @@ def normalise_text(text: str) -> str:
     return text
 
 
+########################
+## this is the result ##
+########################
 def comment_block(text: str):
     text = normalise_text(text)
     width = len(text) + 6  # six for the four # and two " " on either side of the text
