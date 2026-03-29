@@ -22,6 +22,13 @@ collections:
       limit: 10
     sort_title: "!!0 Weekly Random"
 
+  Based on a True Story:
+    tmdb_keyword: 9672 # based on a true story
+    collection_order: basic alphabetical
+    sort_title: "zzz,Based on a True Story"
+    summary:
+      "Films and shows inspired by real events, real people, and stories that actually happened."
+
 #########################
 ## DYNAMIC COLLECTIONS ##
 #########################
@@ -45,13 +52,6 @@ dynamic_collections:
       depth: 1
       minimum: 10
       limit: 15
-
-  Based on a True Story:
-    tmdb_keyword: 9672 # based on a true story
-    collection_order: basic alphabetical
-    sort_title: "zzz,Based on a True Story"
-    summary:
-      "Films and shows inspired by real events, real people, and stories that actually happened."
 
 external_templates:
   - file: Kometa/config/my_templates.yml
