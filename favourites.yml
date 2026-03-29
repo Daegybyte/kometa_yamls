@@ -1,13 +1,3 @@
-# templates:
-#   personal_favourites:
-#     sort_title: "!0 <<collection_name>>"
-#     sync_mode: sync
-#     collection_mode: hide
-#     collection_order: alpha
-#     visible_home: true
-#     visible_shared: true
-#     visible_library: true
-
 collections:
   Diego's Favourites:
     template:
