@@ -1,4 +1,4 @@
-name: CI - Lint YAML
+name: CI - Lint YML
 
 on:
   pull_request:
