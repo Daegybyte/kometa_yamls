@@ -1,4 +1,7 @@
 collections:
+  ###########
+  ## Diego ##
+  ###########
   Diego's Favourites:
     template:
       name: personal_favourites
@@ -52,6 +55,9 @@ collections:
       - 828898 # The Venture Bros.: Radiant Is the Blood of the Baboon Heart (2023)
       - 269149 # Zootopia (2016)
 
+  #########
+  ## Mum ##
+  #########
   Mum's Favourites:
     template:
       name: personal_favourites

@@ -2,9 +2,9 @@
 ## Templates ##
 ###############
 templates:
-  #########################
-  # Top Episode Template ##
-  #########################
+  ##########################
+  ## Top Episode Template ##
+  ##########################
   top_episodes:
     sort_title: "zzz <<collection_name>>"
     builder_level: episode
@@ -17,9 +17,9 @@ templates:
       all:
         title.is: "<<show_title>>"
 
-  ########################
+  #######################
   ## Universe Template ##
-  ########################
+  #######################
   universe_collections:
     sort_title: "Universe, <<collection_name>>"
     sync_mode: sync

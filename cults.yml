@@ -1,4 +1,7 @@
 collections:
+  #############################
+  ## Cult Documentary Movies ##
+  #############################
   Crazy Cult Shit:
     template:
       name: basic alphabetical
