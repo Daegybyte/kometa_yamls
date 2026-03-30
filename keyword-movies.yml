@@ -4,16 +4,25 @@ collections:
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/refs/heads/master/based/True%20Story.jpg
     template:
       name: basic-alpha
-      prefix: "zzz"
+      prefix: "!060"
     summary:
-      "Films and shows inspired by real events, real people, and stories that actually happened."
+      "Films and  inspired by real events, real people, and stories that actually happened ish."
 
   Boxing Movies:
     tmdb_keyword: 209476 # Boxing
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/refs/heads/master/genre/Boxing.jpg
     template:
       name: basic-alpha
-      prefix: "zzz"
-    summary: "Films and shows inspired by boxing"
+      prefix: "!060"
+    summary: "Films about boxing"
+
+  Kung Full Movies:
+    tmdb_keyword: 780 # Kung Fu
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/refs/heads/master/genre/Martial%20Arts.jpg
+    template:
+      name: basic-alpha
+      prefix: "!060"
+    summary: "Films about boxing"
 
 external_templates:
   - file: Kometa/config/my_templates.yml
