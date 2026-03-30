@@ -16,7 +16,7 @@ collections:
       prefix: "!060"
     summary: "Films about boxing"
 
-  Kung Full Movies:
+  Kung Fu Movies:
     tmdb_keyword: 780 # Kung Fu
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/refs/heads/master/genre/Martial%20Arts.jpg
     template:
