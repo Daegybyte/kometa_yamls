@@ -1,3 +1,10 @@
+[![CI - Lint YML](https://github.com/Daegybyte/kometa_yamls/actions/workflows/lint.yml/badge.svg)](https://github.com/Daegybyte/kometa_yamls/actions/workflows/lint.yml)
+[![CI - Ruff](https://github.com/Daegybyte/kometa_yamls/actions/workflows/ruff.yml/badge.svg)](https://github.com/Daegybyte/kometa_yamls/actions/workflows/ruff.yml)
+[![CI - Security](https://github.com/Daegybyte/kometa_yamls/actions/workflows/security.yml/badge.svg)](https://github.com/Daegybyte/kometa_yamls/actions/workflows/security.yml)
+[![CI - Pytest](https://github.com/Daegybyte/kometa_yamls/actions/workflows/test.yml/badge.svg)](https://github.com/Daegybyte/kometa_yamls/actions/workflows/test.yml)
+[![CD - Sync configs to plex](https://github.com/Daegybyte/kometa_yamls/actions/workflows/deploy.yml/badge.svg)](https://github.com/Daegybyte/kometa_yamls/actions/workflows/deploy.yml)
+[![CD - Sync configs to plex-remote](https://github.com/Daegybyte/kometa_yamls/actions/workflows/deploy-plex-remote.yml/badge.svg)](https://github.com/Daegybyte/kometa_yamls/actions/workflows/deploy-plex-remote.yml)
+
 # config-repo
 
 YAML configuration repository with automated validation and multi-server synchronization using
