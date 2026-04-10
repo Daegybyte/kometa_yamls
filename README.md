@@ -1,4 +1,4 @@
-[![CI - Lint YML](https://github.com/Daegybyte/kometa_yamls/actions/workflows/lint.yml/badge.svg)](https://github.com/Daegybyte/kometa_yamls/actions/workflows/lint.yml)
+![CI - Lint YML](https://github.com/Daegybyte/kometa_yamls/actions/workflows/lint.yml/badge.svg)](https://github.com/Daegybyte/kometa_yamls/actions/workflows/lint.yml)
 [![CI - Ruff](https://github.com/Daegybyte/kometa_yamls/actions/workflows/ruff.yml/badge.svg)](https://github.com/Daegybyte/kometa_yamls/actions/workflows/ruff.yml)
 [![CI - Security](https://github.com/Daegybyte/kometa_yamls/actions/workflows/security.yml/badge.svg)](https://github.com/Daegybyte/kometa_yamls/actions/workflows/security.yml)
 [![CI - Pytest](https://github.com/Daegybyte/kometa_yamls/actions/workflows/test.yml/badge.svg)](https://github.com/Daegybyte/kometa_yamls/actions/workflows/test.yml)
