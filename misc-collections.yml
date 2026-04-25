@@ -1,0 +1,10 @@
+collections:
+  A24:
+    template:
+      name: basic-alpha
+      prefix: "zzz,"
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/refs/heads/master/studio/A24.jpg
+    tmdb_company: 41077
+
+external_templates:
+  - file: Kometa/config/my_templates.yml
