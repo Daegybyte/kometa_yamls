@@ -6,5 +6,17 @@ collections:
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/refs/heads/master/studio/A24.jpg
     tmdb_company: 41077
 
+  28 Later:
+    template:
+      name: franchise_collections
+    url_poster: "https://raw.githubusercontent.com/Kometa-Team/Default-Images/refs/heads/master/franchise/28%20Days%20Weeks%20Later.jpg"
+    summary: "Films in the 28 Days later Franchise"
+    tmdb_movie:
+      - 170 # Days Later (2002)
+      - 1562 # Weeks Later (2007)
+      - 1100988 # 28 Years Later (2025)
+      - 1272837 # Years Later Bone Temple (2026)
+      - 1273002 # Years Later TBD (2027)
+
 external_templates:
   - file: Kometa/config/my_templates.yml

@@ -25,6 +25,14 @@ templates:
     sync_mode: sync
     collection_order: release.asc
 
+  ########################
+  ## franchise template ##
+  ########################
+  franchise_collections:
+    sort_title: "Franchise, <<collection_name>>"
+    sync_mode: sync
+    collection_order: release.asc
+
   ##################
   ## Alphabetical ##
   ##################
