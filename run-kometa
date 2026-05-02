@@ -1,0 +1,24 @@
+#!/bin/bash
+
+###########################
+## move to usr/local/bin ##
+###########################
+
+KOMETA_DIR="$HOME/Kometa"
+PYTHON="$KOMETA_DIR/kometa-venv/bin/python"
+LOG="$HOME/logs/kometa.log"
+
+mkdir -p "$(dirname "$LOG")"
+
+echo "=== Kometa run started: $(date) ===" >>"$LOG"
+"$PYTHON" "$KOMETA_DIR/kometa.py" "$KOMETA_DIR/config/config.yml" -r >>"$LOG" 2>&1
+KOMETA_EXIT=$?
+echo "=== Kometa finished with exit $KOMETA_EXIT: $(date) ===" >>"$LOG"
+
+if [ $KOMETA_EXIT -eq 0 ]; then
+  echo "=== ImageMaid run started: $(date) ===" >>"$LOG"
+  imagemaid >>"$LOG" 2>&1
+  echo "=== ImageMaid finished: $(date) ===" >>"$LOG"
+else
+  echo "=== Skipping ImageMaid: Kometa exited with error ===" >>"$LOG"
+fi
