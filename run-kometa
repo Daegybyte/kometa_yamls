@@ -1,8 +1,8 @@
 #!/bin/bash
 
-###########################
-## move to usr/local/bin ##
-###########################
+#######################################
+## sudo mv run-kometa /usr/local/bin ##
+#######################################
 
 KOMETA_DIR="$HOME/Kometa"
 PYTHON="$KOMETA_DIR/kometa-venv/bin/python"
