@@ -2,3 +2,4 @@
 .coverage
 .pytest_cache/
 .ruff_cache/
+_top-of_config.yml
