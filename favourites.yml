@@ -70,5 +70,21 @@ collections:
       - 8491 # Weekend at Bernie's (1989)
       - 10276 # What About Bob? (1991)
 
+  ############
+  ## Skyler ##
+  ############
+  Skyler's's Top 10:
+    template:
+      name: personal_favourites
+    url_poster: https://raw.githubusercontent.com/Daegybyte/kometa_yamls/refs/heads/main/src/images/skyler.jpg
+    tmdb_movie:
+      - 9476 # A Knight's Tale (2001)
+      - 155 # The Dark Knight (2008)
+      - 8584 # Shanghai Noon (2000)
+      - 9101 # Down Periscope (1996)
+      - 329 # Jurassic Park (1993)
+      - 425 # Ice Age (2002)
+      - 11381 # Tommy Boy (1995)
+
 external_templates:
   - file: Kometa/config/my_templates.yml
