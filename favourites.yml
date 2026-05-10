@@ -74,7 +74,7 @@ collections:
   ############
   ## Skyler ##
   ############
-  Skyler's's Top 10:
+  Skyler's Top 10:
     template:
       name: personal_favourites
     url_poster: https://raw.githubusercontent.com/Daegybyte/kometa_yamls/refs/heads/main/src/images/skyler.jpg
