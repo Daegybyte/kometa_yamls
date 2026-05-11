@@ -6,7 +6,7 @@ templates:
   ## Top Episode Template ##
   ##########################
   top_episodes:
-    sort_title: "zzz <<collection_name>>"
+    sort_title: "!029_!<<collection_name>>"
     builder_level: episode
     sync_mode: sync
     collection_order: release.asc
@@ -49,7 +49,7 @@ templates:
   ## Faves ##
   ###########
   personal_favourites:
-    sort_title: "!0 <<collection_name>>"
+    sort_title: "!0<<prefix>>_<<collection_name>>"
     sync_mode: sync
     collection_mode: hide
     collection_order: title.asc

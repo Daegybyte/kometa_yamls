@@ -5,6 +5,8 @@ collections:
   Diego's Favourites:
     template:
       name: personal_favourites
+      prefix: "00"
+
     url_poster: https://raw.githubusercontent.com/Daegybyte/kometa_yamls/refs/heads/main/src/images/dp_d20_logo.png
     tmdb_movie:
       - 530915 # 1917 (2019)
@@ -60,9 +62,11 @@ collections:
   #########
   ## Mum ##
   #########
-  Mum's Favourites:
+  Sue's Favourites:
     template:
       name: personal_favourites
+      prefix: "00"
+    url_poster: https://raw.githubusercontent.com/Daegybyte/kometa_yamls/refs/heads/main/src/images/m.jpg
     tmdb_movie:
       - 9932 # Analyze That (2002)
       - 9535 # Analyze This (1999)
@@ -77,7 +81,26 @@ collections:
   Skyler's Top 10:
     template:
       name: personal_favourites
-    url_poster: https://raw.githubusercontent.com/Daegybyte/kometa_yamls/refs/heads/main/src/images/skyler.jpg
+      prefix: "1"
+
+    url_poster: https://raw.githubusercontent.com/Daegybyte/kometa_yamls/refs/heads/main/src/images/s.jpg
+    tmdb_movie:
+      - 9476 # A Knight's Tale (2001)
+      - 155 # The Dark Knight (2008)
+      - 8584 # Shanghai Noon (2000)
+      - 9101 # Down Periscope (1996)
+      - 329 # Jurassic Park (1993)
+      - 425 # Ice Age (2002)
+      - 11381 # Tommy Boy (1995)
+
+  ############
+  ## Emma ##
+  ############
+  Emma's Top 10:
+    template:
+      name: personal_favourites
+      prefix: "1"
+    url_poster: https://raw.githubusercontent.com/Daegybyte/kometa_yamls/refs/heads/main/src/images/e.jpg
     tmdb_movie:
       - 9476 # A Knight's Tale (2001)
       - 155 # The Dark Knight (2008)

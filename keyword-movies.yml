@@ -6,7 +6,7 @@ collections:
       name: basic-alpha
       prefix: "!060"
     summary:
-      "Films and  inspired by real events, real people, and stories that actually happened ish."
+      "Films and  inspired by real events, real people, and stories that actually happened... ish."
 
   Boxing Movies:
     tmdb_keyword: 209476 # Boxing
@@ -23,6 +23,14 @@ collections:
       name: basic-alpha
       prefix: "!060"
     summary: "Films about boxing"
+
+  Zombos:
+    tmdb_keyword: 12377 # Kung Fu
+    url_poster: https://raw.githubusercontent.com/Daegybyte/kometa_yamls/refs/heads/main/src/images/zombo.jpg
+    template:
+      name: basic-alpha
+      prefix: "!060"
+    summary: "Films about Zombies"
 
 external_templates:
   - file: Kometa/config/my_templates.yml
