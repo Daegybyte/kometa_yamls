@@ -18,7 +18,7 @@ collections:
 
   Kung Fu Movies:
     tmdb_keyword: 780 # Kung Fu
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/refs/heads/master/genre/Martial%20Arts.jpg
+    url_poster: https://raw.githubusercontent.com/Daegybyte/kometa_yamls/refs/heads/main/src/images/kf.jpg
     template:
       name: basic-alpha
       prefix: "!060"
