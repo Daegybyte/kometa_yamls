@@ -25,12 +25,20 @@ collections:
     summary: "Films about boxing"
 
   Zombos:
-    tmdb_keyword: 12377 # Kung Fu
+    tmdb_keyword: 12377 # Zombies
     url_poster: https://raw.githubusercontent.com/Daegybyte/kometa_yamls/refs/heads/main/src/images/zombo.jpg
     template:
       name: basic-alpha
       prefix: "!060"
     summary: "Films about Zombies"
+
+  Kaiju:
+    tmdb_keyword: 161791 # Kaiju
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/refs/heads/master/genre/Monster.jpg
+    template:
+      name: basic-alpha
+      prefix: "!060"
+    summary: "Films about Kaiju"
 
 external_templates:
   - file: Kometa/config/my_templates.yml
