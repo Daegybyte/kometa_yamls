@@ -66,6 +66,7 @@ collections:
     template:
       name: personal_favourites
       prefix: "00"
+      minimum_items: 4
     url_poster: https://raw.githubusercontent.com/Daegybyte/kometa_yamls/refs/heads/main/src/images/m.jpg
     tmdb_movie:
       - 9932 # Analyze That (2002)
@@ -82,6 +83,7 @@ collections:
     template:
       name: personal_favourites
       prefix: "1"
+      minimum_items: 4
 
     url_poster: https://raw.githubusercontent.com/Daegybyte/kometa_yamls/refs/heads/main/src/images/s.jpg
     tmdb_movie:
