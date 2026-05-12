@@ -66,7 +66,7 @@ collections:
     template:
       name: personal_favourites
       prefix: "00"
-      minimum_items: 4
+    minimum_items: 4
     url_poster: https://raw.githubusercontent.com/Daegybyte/kometa_yamls/refs/heads/main/src/images/m.jpg
     tmdb_movie:
       - 9932 # Analyze That (2002)
@@ -83,7 +83,7 @@ collections:
     template:
       name: personal_favourites
       prefix: "1"
-      minimum_items: 4
+    minimum_items: 4
 
     url_poster: https://raw.githubusercontent.com/Daegybyte/kometa_yamls/refs/heads/main/src/images/s.jpg
     tmdb_movie:
@@ -95,22 +95,24 @@ collections:
       - 425 # Ice Age (2002)
       - 11381 # Tommy Boy (1995)
 
-  # ############
-  # ## Emma ##
-  # ############
-  # Emma's Top 10:
-  #   template:
-  #     name: personal_favourites
-  #     prefix: "1"
-  #   url_poster: https://raw.githubusercontent.com/Daegybyte/kometa_yamls/refs/heads/main/src/images/e.jpg
-  #   tmdb_movie:
-  #     - 9476 # A Knight's Tale (2001)
-  #     - 155 # The Dark Knight (2008)
-  #     - 8584 # Shanghai Noon (2000)
-  #     - 9101 # Down Periscope (1996)
-  #     - 329 # Jurassic Park (1993)
-  #     - 425 # Ice Age (2002)
-  #     - 11381 # Tommy Boy (1995)
+  ############
+  ## Emma ##
+  ############
+  Emma's Top 10:
+    template:
+      name: personal_favourites
+      prefix: "1"
+    url_poster: https://raw.githubusercontent.com/Daegybyte/kometa_yamls/refs/heads/main/src/images/e.jpg
+    minimum_items: 4
+    tmdb_movie:
+      - 941 # Lethal Weapon (1987)
+      - 942 # Lethal Weapon 2 (1989)
+      - 943 # Lethal Weapon 3 (1992)
+      - 944 # Lethal Weapon 4 (1998)
+      - 2493 # The Princess Bride (1987)
+      - 1832 # Dogma (1999)
+      - 11969 # Tombstone (1993)
+      - 9615 # The Fast and the Furious: Tokyo Drift (2006)
 
 external_templates:
   - file: Kometa/config/my_templates.yml
