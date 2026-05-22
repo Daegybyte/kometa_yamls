@@ -5,7 +5,7 @@ collections:
   Diego's Favourites:
     template:
       name: personal_favourites
-      prefix: "00"
+      prefix: "!!0"
 
     url_poster: https://raw.githubusercontent.com/Daegybyte/kometa_yamls/refs/heads/main/src/images/dp_d20_logo.png
     tmdb_movie:
@@ -66,7 +66,7 @@ collections:
   Sue's Favourites:
     template:
       name: personal_favourites
-      prefix: "00"
+      prefix: "!!01"
     minimum_items: 4
     url_poster: https://raw.githubusercontent.com/Daegybyte/kometa_yamls/refs/heads/main/src/images/m.jpg
     tmdb_movie:
@@ -83,7 +83,7 @@ collections:
   Skyler's Top 10:
     template:
       name: personal_favourites
-      prefix: "1"
+      prefix: "!!01"
     minimum_items: 4
 
     url_poster: https://raw.githubusercontent.com/Daegybyte/kometa_yamls/refs/heads/main/src/images/s.jpg
@@ -102,7 +102,7 @@ collections:
   Emma's Top 10:
     template:
       name: personal_favourites
-      prefix: "1"
+      prefix: "!!01"
     url_poster: https://raw.githubusercontent.com/Daegybyte/kometa_yamls/refs/heads/main/src/images/e.jpg
     minimum_items: 4
     tmdb_movie:
