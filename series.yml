@@ -153,6 +153,7 @@ collections:
       - 157732 # Lawmen: Bass Reeves
       - 225891 # The Madison
       - 290856 # Marshals
+      - 299167 # Dutton Ranch
 
 external_templates:
   - file: Kometa/config/my_templates.yml
