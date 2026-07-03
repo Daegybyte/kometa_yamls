@@ -40,5 +40,13 @@ collections:
       prefix: "!060"
     summary: "Films about Kaiju"
 
+  Gangster Movies:
+    tmdb_keyword: 10391 # Gangster
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/refs/heads/master/genre/Gangster.jpg
+    template:
+      name: basic-alpha
+      prefix: "!060"
+    summary: "Films about gangsters"
+
 external_templates:
   - file: Kometa/config/my_templates.yml
